@@ -26,23 +26,21 @@
 
 .navbar {
     margin:0 auto;
-    height:151px;
-    width:80%;
     display:flex;
-    justify-content: space-between;
-    padding-top:80px;
+    justify-content:space-between;
+    padding:80px 80px 0px;
 }
 
 .logo {
-    font-size:60px;
+    font-size: 34px;
     font-weight:bolder;
 }
-.navbar button{
-    padding:5px 150px;
-    font-size:50px;
+.sign{
+    padding:10px 60px;
+    font-size:16px;
     color:white;
     background-color: #4E47FF;
-    border-radius: 25px;
+    border-radius: 10px;
     
 }
 
@@ -52,20 +50,33 @@
     padding:5px;
 }
 .cool {
-    font-size: 100px;
+    font-size: 65px;
     font-weight: bold;
     color: #252432;
 }
 .agency {
-    font-size: 100px;
+    font-size: 65px;
     font-weight: bold;
     color: #252432;
 }
 
 .under_navbar button{
-    padding:20px 80px;
+    padding:18px 60px;
     background-color: #4E47FF;
     color:white;
-    border-radius: 20px;
-    font-size:40px;
+    border-radius: 15px;
+    font-size:18px;
 }
+
+/* Body Section */
+main{
+    margin:0 auto;
+    max-width:1140px;
+}
+
+/* Section no.2 */
+    .section2 {
+        display:flex;
+        margin-top:102px;
+        justify-content: space-between;
+    }
