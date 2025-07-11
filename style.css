@@ -42,6 +42,12 @@
     background-color: #4E47FF;
     border-radius: 10px;
     border:none;
+    transition: all 0.2s ease 0s;
+}
+.sign:hover {
+    background-color: aqua;
+    font-size: 18px;
+    color:black;
 }
 
 .under_navbar {
@@ -67,6 +73,13 @@
     border-radius: 15px;
     font-size:18px;
     border:none;
+    transition: all 0.2s ease 0s;
+}
+
+.under_navbar button:hover {
+    background-color: aquamarine;
+    font-size: 22px;
+    color: black;
 }
 
 /* Body Section */
@@ -103,6 +116,12 @@ main{
     color:white;
     border-radius: 10px;
     border: none;
+    transition: all 0.2s ease 0s;
+}
+.Launch_Live_Preview_Button:hover {
+    background-color: aquamarine;
+    font-size: 20px;
+    color: black;
 }
 
 .action_section .part2 img {
@@ -183,8 +202,12 @@ Users’ Feedback Section */
     text-align: left;
     padding:20px;
     margin-right: 20px;
+    transition: all 0.2s ease 0s;
 }
 
+.profile_button:hover{
+    background-color: antiquewhite;
+}
 .stars {
     height:20px;
     width:100px;
@@ -230,6 +253,7 @@ Users’ Feedback Section */
 .date {
     margin-top: 0px;
     margin-bottom: 0px;
+    color: #25243264;
 }
 
 
@@ -277,8 +301,14 @@ Users’ Feedback Section */
     border-radius: 10px;
     font-weight: bold;
     border:none;
+    transition: all 0.2s ease 0s;
 }
 
+.touch_button:hover {
+    background-color: aqua;
+    color:black;
+
+}
 /* ### 6. Footer Section */
 .ending {
     margin-top:79px;
