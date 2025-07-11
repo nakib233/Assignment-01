@@ -149,6 +149,93 @@ main{
     margin-bottom:50px;
 }
 
+/* ## 🧪 CHALLENGES (10 Marks)
+Users’ Feedback Section */
+
+.feedback_container {
+    height:243px;
+    width:1140px;
+    margin-top: 142px;
+    margin-bottom:137px;
+    text-align: center;
+}
+
+.feedback_font {
+    font-size:42px;
+    font-weight: bold;
+    color:#252432;
+}
+
+.profile_buttons {
+    height:243px;
+    width:1140px;
+    margin-top:50px;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+.profile_button {
+    height:200px;
+    width:366px;
+    background-color: #f2eded77;
+    border-radius: 14px;
+    text-align: left;
+    padding:20px;
+    margin-right: 20px;
+}
+
+.stars {
+    height:20px;
+    width:100px;
+    background-image: url("Assets/icon-star.png");
+    background-repeat: repeat-x;
+    background-size: 20px 20px;
+
+}
+
+.info {
+    height:81px;
+    width:318px;
+    margin-bottom: 16px;
+}
+
+.typo {
+    font-size: 24px;
+}
+
+.info small {
+    font-size: 14px;
+}
+.reviewer {
+    display:flex;
+    gap:12px;
+    height:46px;
+    width:318px;
+    margin-top: 24px;
+}
+
+.women_pic {
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background-image: url("Assets/avatar.png");
+}
+
+.reviewer_name {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.date {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
 /*  Let’s Get In Touch Section */
 .touch {
     height: 632px;
@@ -228,3 +315,6 @@ footer a {
     color:#8987A1;
     margin-right: 48px;
 }
+
+
+
