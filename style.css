@@ -202,12 +202,8 @@ Users’ Feedback Section */
     text-align: left;
     padding:20px;
     margin-right: 20px;
-    transition: all 0.2s ease 0s;
 }
 
-.profile_button:hover{
-    background-color: antiquewhite;
-}
 .stars {
     height:20px;
     width:100px;
